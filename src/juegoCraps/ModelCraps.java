@@ -1,5 +1,15 @@
 package juegoCraps;
 
+/**
+ * ModelCraps apply craps rules
+ * estado = 1 NaturaL Winner
+ * estado = 2 Craps Looser
+ * estado = 3 Stablish Punto
+ * estado = 4 Punto Winner
+ * estado = 5 Punto Looser
+ * @author Juan Miguel Rojas
+ * @version V.1.0.0 date 22/04/2023
+ */
 public class ModelCraps {
   private Dado dado1, dado2;
   private int tiro, punto, estado, flag;
@@ -7,6 +17,9 @@ public class ModelCraps {
   private int[] caras;
 
 
+  /**
+   * Class Constructor
+   */
   public ModelCraps(){
     dado1 = new Dado();
     dado2 = new Dado();
@@ -14,14 +27,25 @@ public class ModelCraps {
     flag = 0;
   }
 
+  /**
+   * Establish the tiro value according to each dice
+   */
   public void calcularTiro(){
     caras[0]=dado1.getCara();
     caras[1]=dado2.getCara();
-
     tiro = caras[0] + caras[1];
 
   }
 
+  /**
+   * Establish game state according to estado atribute value
+   * estado = 1 NaturaL Winner
+   * estado = 2 Craps Looser
+   * estado = 3 Stablish Punto
+   * estado = 4 Punto Winner
+   * estado = 5 Punto Looser
+   *
+   */
   public void determinarJuego(){
     if (flag ==0){
       if (tiro == 7 || tiro == 11){
