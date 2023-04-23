@@ -1,3 +1,3 @@
 # JuegoCraps
-Juan Miguel Rojas  
-Margarita Grisales  
+This branch is the one I will work on
+Juan Miguel Rojas
