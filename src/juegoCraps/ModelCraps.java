@@ -42,9 +42,6 @@ public class ModelCraps {
    * estado = 1 NaturaL Winner
    * estado = 2 Craps Looser
    * estado = 3 Stablish Punto
-   * estado = 4 Punto Winner
-   * estado = 5 Punto Looser
-   *
    */
   public void determinarJuego(){
     if (flag ==0){
@@ -70,6 +67,11 @@ public class ModelCraps {
 
   }
 
+  /**
+   *  Establish game state to estado atribute value
+   *  estado = 4 Punto Winner
+   *  estado = 5 Punto Looser
+   */
   private void rondaPunto() {
     if(tiro==punto){
       estado=4;
@@ -89,6 +91,11 @@ public class ModelCraps {
     return punto;
   }
 
+
+  /**
+   * Establish message game state according to estado atribute value
+   * @return  Message for the View class
+   */
   public String getEstadoToString() {
     switch(estado){
       case  1: estadoToString ="Sacaste Natural, has ganado!!";
