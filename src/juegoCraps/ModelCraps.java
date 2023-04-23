@@ -24,7 +24,8 @@ public class ModelCraps {
     dado1 = new Dado();
     dado2 = new Dado();
     caras = new int[2];
-    flag = 0;
+    flag = 0;}
+
   }
 
   /**

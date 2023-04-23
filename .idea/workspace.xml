@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9201bb87-cda4-4478-9cec-0f3b551aad59" name="Changes" comment="Agregué parcialmente los comments" />
+    <list default="true" id="9201bb87-cda4-4478-9cec-0f3b551aad59" name="Changes" comment="Agregué parcialmente los comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,10 +63,26 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JuegoCraps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JuegoCraps" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +95,9 @@
       <workItem from="1682121255705" duration="24000" />
       <workItem from="1682179599536" duration="2032000" />
       <workItem from="1682266471522" duration="1149000" />
+      <workItem from="1682270522994" duration="166000" />
+      <workItem from="1682270715427" duration="75000" />
+      <workItem from="1682270804102" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="Estoy agregando el proyecto craps con lo que he hecho hasta el momento.">
       <created>1682180245017</created>
