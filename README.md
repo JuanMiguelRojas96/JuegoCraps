@@ -13,7 +13,8 @@ This repository contains a Java code for a game called CRAPS. The game simulates
 To run the CRAPS game on your local machine, follow these steps:
 
 1. Clone the repository to your local system using the following command:
-  'git clone https://github.com/JuanMiguelRojas96/POEproject1.git
+  ´´´´bash
+  git clone https://github.com/JuanMiguelRojas96/POEproject1.git
   
 2. Open the project in your preferred Java development environment.
 
